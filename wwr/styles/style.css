@@ -270,6 +270,42 @@ main section img {
     opacity: .6;
     transform: scale(1.1);
 }
+/* River's page css below here */
+.river {
+    display: grid;
+    column-gap: 2%;
+    grid-template-columns: 1fr 1fr 4fr;
+    background-color: #FFC49B;
+    margin: 10px;
+    padding: 10px;
+}
+.river img {
+    display: block;
+    margin: auto auto;
+    grid-column: 1/2;
+    /* margin: 15px; */
+    width: 100%;
+    height: auto;
+}
+
+.river h1 {
+    display: block;
+    text-align: center;
+    margin: auto auto;  
+    grid-column: 2/3;
+    font-size: 30px;
+}
+
+.river p {
+    grid-column: 3/4;
+    font-size: auto;
+    margin: auto auto;
+    display: block;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    /* align-items: right; */
+}
+
 
 
 /* Dont add anything below this media query */
