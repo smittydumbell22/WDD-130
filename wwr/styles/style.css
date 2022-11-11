@@ -298,7 +298,6 @@ main section img {
 
 .river p {
     grid-column: 3/4;
-    font-size: auto;
     margin: auto auto;
     display: block;
     /* margin-left: 50px; */
